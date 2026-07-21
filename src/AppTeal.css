@@ -1,0 +1,17 @@
+.form-control:focus {
+  border-color: #20c997;
+  box-shadow: 0 0 0 0.2rem rgba(32, 201, 151, 0.25);
+}
+
+a {
+  color: #20c997;
+}
+
+a:hover {
+  color: #17a884;
+}
+
+.button {
+  background-color: #20c997 !important;
+  box-shadow: 0 0 0 0.2rem rgba(32, 201, 151, 0.25);
+}

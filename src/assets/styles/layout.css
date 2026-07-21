@@ -1,0 +1,21 @@
+.sidebar a{
+
+    color:#333;
+
+    font-weight:500;
+
+}
+
+.sidebar a.active{
+
+    color:var(--primary);
+
+}
+
+.sidebar{
+
+    min-height:100vh;
+
+    border-right:1px solid #ddd;
+
+}

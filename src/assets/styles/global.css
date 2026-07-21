@@ -1,0 +1,104 @@
+body {
+
+    margin: 0;
+
+    background: var(--background);
+
+    color: var(--text);
+
+    font-family: "Poppins", sans-serif;
+
+    overflow-x: hidden;
+
+}
+
+a {
+
+    text-decoration: none;
+
+    color: inherit;
+
+}
+
+img {
+
+    max-width: 100%;
+
+    display: block;
+
+}
+
+.card {
+
+    border: none;
+
+    border-radius: var(--radius);
+
+    box-shadow: var(--shadow);
+
+}
+
+.card-header {
+
+    background: #fff;
+
+    border-bottom: 1px solid var(--border);
+
+    font-weight: 600;
+
+}
+
+.form-control,
+.form-select {
+
+    border-radius: 8px;
+
+    box-shadow: none;
+
+}
+
+.form-control:focus,
+.form-select:focus {
+
+    border-color: var(--primary);
+
+    box-shadow: 0 0 0 0.2rem rgba(16, 185, 129, 0.2);
+
+}
+
+.btn {
+
+    border-radius: 8px;
+
+    transition: var(--transition);
+
+}
+
+.btn-primary {
+
+    background: var(--primary);
+
+    border: none;
+
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+
+    background: var(--primary-hover);
+
+}
+
+.alert {
+
+    border: none;
+
+    border-radius: 8px;
+
+}
+
+.cursor-pointer {
+
+    cursor: pointer;
+
+}
